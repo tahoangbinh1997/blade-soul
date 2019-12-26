@@ -3,7 +3,7 @@
   position: fixed;
   width: 80px;
   height: 60px;
-  left: 50%;
+  left: 48%;
   margin-left: -10px;
   bottom: 20px;
   z-index: 10;
@@ -183,7 +183,8 @@
 }
 .page-races .race-base .race-info .race-img .gon-base img, .page-races .race-base .race-info .race-img .jin-base img, .page-races .race-base .race-info .race-img .yun-base img, .page-races .race-base .race-info .race-img .lyn-base img {
   position: absolute;
-  height: 714px;
+  max-height: 714px;
+  height: 100%;
   margin-left: 30px;
   top: 10%;
 }
@@ -623,6 +624,126 @@
   margin: 0 0 40px 0;
 }
 
+.third-intro {
+  position: relative;
+  background-color: #17181a;
+}
+.third-intro:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url("../images/background/intro4-bg.jpg") top center no-repeat;
+  background-size: 1920px;
+  transition: opacity 2s ease, visibility 2s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.third-intro .box-row {
+  position: relative;
+}
+.third-intro .intro-content {
+  z-index: 10;
+  position: absolute;
+  left: -180px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%);
+  transition: opacity 1s ease, visibility 1s ease, left 0.5s ease, right 0.5s ease, transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+.third-intro .intro-content .flash-title1 {
+  position: relative;
+  margin: 0 0 30px -30px;
+  line-height: 2.5;
+}
+.third-intro .intro-content .flash-title1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/background/text-intro1.png") center right no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+.third-intro .intro-content .flash-title1 img {
+  position: absolute;
+  z-index: -1;
+}
+.third-intro .intro-content .flash-title1 h2 {
+  font-family: BakaExpert, serif;
+  font-size: 40px;
+  margin: 0 0 0 30px;
+  color: #DEC37C;
+}
+.third-intro .intro-content p {
+  font-family: roboto-light;
+  font-size: 14px;
+  margin: 0 0 40px 0;
+}
+.third-intro .intro-content .wrap-kungfu {
+  position: absolute;
+  top: -12%;
+  left: 100%;
+}
+.third-intro .intro-content .wrap-kungfu .animated-img {
+  opacity: 0;
+  visibility: hidden;
+}
+.page-footer {
+  background: url("../images/homepage/game-overview-1-bg.jpg") top center no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.page-footer:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/background/footer-bottom-shadow.png") bottom center no-repeat;
+  background-size: 100%;
+  left: 0;
+}
+.page-footer:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/background/footer-top-shadow.png") top center no-repeat;
+  background-size: 100%;
+}
+.page-footer .fp-tableCell {
+  height: unset !important;
+}
+.page-footer .footer-top-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.page-footer .footer-content {
+  padding-top: 80px;
+  background: url("../images/icon/footer-line.png") top center no-repeat;
+  background-size: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.page-footer .footer-content img {
+  display: block;
+  margin: 15px auto;
+}
+.page-footer .footer-content img.rating {
+  max-width: 200px;
+}
+.page-footer .footer-bottom-img {
+  width: 100%;
+}
+.page-footer .footer-bottom {
+  height: inherit;
+  text-align: center;
+}
+.page-footer .footer-bottom img {
+  margin: 0 15px;
+}
+
 .intro-section.current:before {
   opacity: 1;
   visibility: visible;
@@ -632,6 +753,22 @@
   left: 0;
   opacity: 1;
   visibility: visible;
+}
+.intro-section.current .animated-img {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.intro-section.current .animate-to-right {
+  transform: translateY(-10%) translateX(-15%);
+  transition-delay: 0.3s !important;
+}
+.intro-section.current .animate-to-left {
+  transform: translateY(-10%) translateX(0);
+  margin-top: -30px;
+  transition-delay: 0.3s !important;
+  position: absolute;
+  top: 0;
+  left: 36%;
 }
 .intro-section.current .destroyer, .intro-section.current .fire {
   visibility: visible;

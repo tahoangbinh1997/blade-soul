@@ -497,7 +497,7 @@ dl, figure, ol, p, pre, ul {
 
 .fp-slide,
 .fp-tableCell {
-  height: auto !important;
+  height: inherit !important;
 }
 
 .fp-section.fp-table, .fp-slide.fp-table {

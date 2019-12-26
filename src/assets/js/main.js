@@ -4,7 +4,6 @@ $(document).ready(function () {
         scrollHorizontally: true,
         scrollBar: false,
         sectionSelector: '.section',
-        scrollOverflow: true,
         afterLoad: function (origin, destination, direction) {
             $('.section').eq(destination.index).addClass('current');
         },
@@ -187,21 +186,73 @@ $(document).ready(function () {
         $('.race-preview div.race-detail div.gender-select a:nth-child(1)').addClass('active');
     });
 
-    $('.active-male').on('click', function() {
+    $('.active-male').on('click', function () {
         event.preventDefault();
         $(this).parent('.gender-select').children('a').removeClass('active');
         $(this).addClass('active');
         var raceImgClass = $(this).attr('data-race');
-        $('.'+raceImgClass).parent('div').children('img').removeClass('fadeInLeft').addClass('fadeOutLeft');
-        $('.'+raceImgClass).removeClass('fadeOutLeft').addClass('fadeInLeft');
+        $('.' + raceImgClass).parent('div').children('img').removeClass('fadeInLeft').addClass('fadeOutLeft');
+        $('.' + raceImgClass).removeClass('fadeOutLeft').addClass('fadeInLeft');
     });
 
-    $('.active-female').on('click', function() {
+    $('.active-female').on('click', function () {
         event.preventDefault();
         $(this).parent('.gender-select').children('a').removeClass('active');
         $(this).addClass('active');
         var raceImgClass = $(this).attr('data-race');
-        $('.'+raceImgClass).parent('div').children('img').removeClass('fadeInLeft').addClass('fadeOutLeft');
-        $('.'+raceImgClass).removeClass('fadeOutLeft').addClass('fadeInLeft');
+        $('.' + raceImgClass).parent('div').children('img').removeClass('fadeInLeft').addClass('fadeOutLeft');
+        $('.' + raceImgClass).removeClass('fadeOutLeft').addClass('fadeInLeft');
     });
+
+    // $(".wrap-kungfu").bind("mouseenter", function (e) {
+    //
+    //     /** the width and height of the current div **/
+    //     var w = $(this).width();
+    //     var h = $(this).height();
+    //
+    //     /** calculate the x and y to get an angle to the center of the div from that x and y. **/
+    //     /** gets the x value relative to the center of the DIV and "normalize" it **/
+    //     var x = (e.pageX - $(this).offset().left - (w / 2)) * (w > h ? (h / w) : 1);
+    //     var y = (e.pageY - $(this).offset().top - (h / 2)) * (h > w ? (w / h) : 1);
+    //
+    //     /** the angle and the direction from where the mouse came in/went out clockwise (TRBL=0123);**/
+    //     /** first calculate the angle of the point,
+    //      add 180 deg to get rid of the negative values
+    //      divide by 90 to get the quadrant
+    //      add 3 and do a modulo by 4  to shift the quadrants to a proper clockwise TRBL (top/right/bottom/left) **/
+    //     var direction = Math.round((((Math.atan2(y, x) * (180 / Math.PI)) + 180) / 90) + 3) % 4;
+    //
+    //
+    //     /** do your animations here **/
+    //     switch (direction) {
+    //         case 0:
+    //             /** animations from the TOP **/
+    //
+    //             console.log('Yasuo đi top');
+    //             break;
+    //         case 1:
+    //             /** animations from the RIGHT **/
+    //
+    //             console.log('Yasuo đi right');
+    //             $('.wrap-kungfu .boy-fm').css({
+    //                 'transform': 'translate3d(' + x / y + 'px, 0px, 0px)',
+    //                 'transform-style': 'preserve-3d',
+    //                 'backface-visibility': 'hidden',
+    //                 'position':'relative',
+    //                 'top':'0',
+    //                 'left':'0'
+    //             });
+    //             break;
+    //         case 2:
+    //             /** animations from the BOTTOM **/
+    //
+    //             console.log('Yasuo đi bottom');
+    //             break;
+    //         case 3:
+    //             /** animations from the LEFT **/
+    //
+    //             console.log('Yasuo đi left');
+    //             break;
+    //     }
+    // });
 });
