@@ -111,13 +111,15 @@
 .page-races .race-base .race-info {
   overflow: hidden;
   height: inherit;
+  display: flex;
+  align-items: center;
 }
 .page-races .race-base .race-info .race-selection {
-  margin: 250px 0 0;
   float: left;
   width: 120px;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .page-races .race-base .race-info .race-selection li {
   font-family: BakaExpert, serif;
@@ -720,8 +722,6 @@
   width: 100%;
 }
 .page-footer .footer-content {
-  padding-top: 80px;
-  background: url("../images/icon/footer-line.png") top center no-repeat;
   background-size: 100%;
   max-width: 900px;
   margin: 0 auto;
