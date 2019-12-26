@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url(style.css);
+.fullpage-menu {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.6) 47%, rgba(0, 0, 0, 0.37) 67%, rgba(0, 0, 0, 0.18) 88%, rgba(0, 0, 0, 0.01) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+  transition: height 0.3s;
+}
+.fullpage-menu .menu-container {
+  height: 100px;
+  position: relative;
+  padding: 0 10px;
+  width: 100%;
+}
+.fullpage-menu .menu-container .menu-btn {
+  display: none;
+  width: 40px;
+  height: 100px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  text-shadow: 0px 0px 1px #b75334;
+  z-index: 11;
+}
+.fullpage-menu .menu-container .menu-btn .menu-icon {
+  width: 20px;
+  height: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fullpage-menu .menu-container .menu-btn .menu-icon span {
+  background-color: #b75334;
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 50%;
+  opacity: 1;
+  transform: rotate(0deg);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+.fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(1), .fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(2) {
+  top: 0px;
+}
+.fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(3), .fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(4) {
+  top: 7px;
+}
+.fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(5), .fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(6) {
+  top: 14px;
+}
+.fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(odd) {
+  left: 0px;
+}
+.fullpage-menu .menu-container .menu-btn .menu-icon span:nth-child(even) {
+  left: 50%;
+}
+.fullpage-menu .menu-container .menu-btn.open .menu-icon {
+  height: 20px;
+}
+.fullpage-menu .menu-container .menu-btn.open .menu-icon span:nth-child(1) {
+  top: 4px;
+  left: 2px;
+  transform: rotate(45deg);
+}
+.fullpage-menu .menu-container .menu-btn.open .menu-icon span:nth-child(2) {
+  top: 4px;
+  left: calc(50% - 2px);
+  transform: rotate(-45deg);
+}
+.fullpage-menu .menu-container .menu-btn.open .menu-icon span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+.fullpage-menu .menu-container .menu-btn.open .menu-icon span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+.fullpage-menu .menu-container .menu-btn.open .menu-icon span:nth-child(5) {
+  top: 10px;
+  left: 2px;
+  transform: rotate(315deg);
+}
+.fullpage-menu .menu-container .menu-btn.open .menu-icon span:nth-child(6) {
+  top: 10px;
+  left: calc(50% - 2px);
+  transform: rotate(-315deg);
+}
+.fullpage-menu .menu-container .menu-contain {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  border-width: 200px;
+  border-bottom: 1px solid #818286;
+}
+.fullpage-menu .menu-container .menu-contain:after, .fullpage-menu .menu-container .menu-contain:before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 16px;
+  bottom: -8px;
+}
+.fullpage-menu .menu-container .menu-contain:before {
+  left: 0;
+  background: url("../images/icon/sprites.png") 0 -59px no-repeat;
+}
+.fullpage-menu .menu-container .menu-contain:after {
+  left: 98.5%;
+  background: url("../images/icon/sprites.png") 0 -59px no-repeat;
+}
+.fullpage-menu .menu-container .menu-contain div.logo {
+  width: 180px;
+}
+.fullpage-menu .menu-container .menu-contain div.logo a {
+  display: block;
+  padding-bottom: calc(100% * 82 / 180);
+  position: relative;
+}
+.fullpage-menu .menu-container .menu-contain div.logo a img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: 20px;
+}
+.fullpage-menu .menu-container .menu-contain > ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  list-style: none;
+  padding-left: 30px;
+}
+.fullpage-menu .menu-container .menu-contain > ul li {
+  line-height: 100px;
+  padding: 0 17px;
+  position: relative;
+}
+.fullpage-menu .menu-container .menu-contain > ul li > a {
+  font-family: "BakaExpert", Serif;
+  font-size: 27px;
+  text-decoration: none;
+  color: #b1b1b1;
+  line-height: inherit;
+  display: block;
+}
+.fullpage-menu .menu-container .menu-contain > ul li > a:hover, .fullpage-menu .menu-container .menu-contain > ul li > a:focus {
+  color: #ffffff;
+}
+.fullpage-menu .menu-container .menu-contain > ul li > a.parent:after {
+  position: absolute;
+  color: #b75334;
+  font-size: 11px;
+  vertical-align: top;
+  padding-left: 5px;
+  font-family: "FontAwesome";
+  content: "";
+}
+.fullpage-menu .menu-container .menu-contain > ul li ul {
+  width: max-content;
+  position: absolute;
+  bottom: 0px;
+  left: -10px;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  transform: translateY(100%) scaleY(0);
+  transform-origin: top center;
+  height: auto;
+  background: linear-gradient(to top, black 0, rgba(0, 0, 0, 0.5) 47%, rgba(0, 0, 0, 0.27) 67%, rgba(0, 0, 0, 0.08) 88%, rgba(0, 0, 0, 0.01) 100%);
+  padding: 5px 10px 10px;
+}
+.fullpage-menu .menu-container .menu-contain > ul li ul li {
+  line-height: 30px;
+  display: block;
+}
+.fullpage-menu .menu-container .menu-contain > ul li ul li a {
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fullpage-menu .menu-container .menu-contain > ul li ul li a:hover, .fullpage-menu .menu-container .menu-contain > ul li ul li a:focus {
+  color: #FF0000;
+}
+.fullpage-menu .menu-container .menu-contain > ul li:hover ul {
+  transform: translateY(100%) scaleY(1);
+}
+.fullpage-menu .menu-container .menu-contain div.center-pattern {
+  position: absolute;
+  width: 110px;
+  height: 41px;
+  background: url("../images/icon/sprites.png") no-repeat;
+  bottom: -20px;
+  left: 48%;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=navigation.css.map */

@@ -1,0 +1,92 @@
+*Blade Master:
+
+	Blade Masters have a wide variety of attack and defense skills, making them a powerful force on the battlefield. Their techniques rely on high attack speed and careful maneuvering around an enemy, dodging and parrying without pause, while countering any attacks  with devastating ease.
+
+In battle, the Blade Master is able to swiftly switch between stances, allowing for many combinations of attacks in either their Basic Stance or their blindingly-fast Draw Stance, calling on a unique set of skills only available in those stances. With the Flock of Blades technique, they can summon a flurry of flying swords to overwhelm their enemies.
+
+The Blade Master is a well-rounded class that is easy to use but difficult to master. It takes a great deal of skill and quick thinking to be effective, but has no overt disadvantages that enemies can exploit.
+
+Available Races: Yun, Jin
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+*Blade Dancer:
+
+	The Lyn have also taken up the sword, but rather than wholly adopt the techniques of the Blade Master, they have invented their own unique blend of skills exclusive to their kind. The Blade Dancer merges rapid attack speed, high mobility, and devestating  control abilities at the expense of defense.
+
+Blade Dancers focus on dashing around the battlefield at blinding speed to evade damage entirely. With both physical and mystical abilities at their disposal, they can dominate a fight before their opponent even realizes what hit them.
+
+The Blade Dancer’s high attack speed and ability to chain attacks make them excel at one-on-one battles, while their crowd control skills give them an undeniable edge in parties. However, the Blade Dancer must always be aware of their Focus and pace themselves lest they risk running out of steam and leave themselves open to counter-attack.
+
+Available Races: Lyn
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+*Assassin:
+
+	While most classes charge in bold and daring, the Assassin is a stealthy sort that prefers to take things at their own pace. They can control the battlefield like no other, luring enemies into deadly traps before they even know what hit them.
+
+The Assassin whittles away at an enemy’s strength with rapid fire attacks that cause bleeding and poison damage, which drain the life from their foes over time. While their razor-sharp Dagger is vital, they also employ explosives, poisons, smoke, and other potent utilities to hobble their enemies. On top of their ingenuity, they can also use strange martial arts that allow them to turn invisible, teleport around the field, and even swap places with enemies in an instant.
+
+More so than others, Assassins work best alone. However, their status-altering abilities and damage-over-time effects make them an important addition to any large-scale battle.
+
+Available Races: Jin
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+*Force Master:
+
+	Unlike other classes, the Force Master attacks at long range, dealing heavy damage from a safe distance. Their swift strikes and ability to remain on the move while attacking makes them a dynamic addition to any battle. They are less durable than the other classes, so careful positioning is key to their survival.
+
+The Force Master is able to freely switch between elements; their searing Fire abilities stack damage with repeated attacks, while the freezing Ice powers control the battlefield and enhance their defenses. With careful focus they can even snatch an enemy and hold them suspended in the air, leaving that foe helpless against incoming attacks.
+
+Other classes can’t compete with the Force Master’s ability to handle groups of enemies, but PvP arenas prove more challenging than ever. Only a truly skilled Force Master can overcome the direct attention of a fellow warrior.
+
+Available Races: Yun, Lyn, Gon
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+*Destroyer:
+
+	True to their name, Destroyers have the most stopping power of any class in Blade & Soul. With their overwhelming presence, Destroyers provoke enemies into attacking them as the biggest threat around. Once they have their opponent’s attention, they overpower all who stand in their way.
+
+The iconic skill of the Destroyer is their ability to Grab a staggered enemy, dominating them in battle as they are left defenseless before the Destroyer’s might. Fallen opponents become weapons as the Destroyer hurls them into other enemies, while friends who could not keep up are safely carried out of harm’s way.
+
+The Destroyer’s strong attack power and defensive skill make them seem like a lone wolf, but they are most effective in group combat. They complement other classes like the Assassin, Force Master, or Kung Fu Masters, allowing each to set up devastating combinations and Joint Attacks.
+
+
+Available Races: Gon
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+*Summoner:
+
+	The Summoner and their Familiar are a team, fighting together to overwhelm their enemies. The Familiar rushes into the thick of it, dealing heavy physical damage and holding the attention of their opponent. Meanwhile, the Summoner hangs back, supporting their Familiar with long range skills that both help their feline friend and hinder their shared enemy.
+
+Don’t let the adorable appearance of these two fool you. Summoner attacks deal constant damage and can readily control the flow of battle, making them particularly hard to deal with. Even if one part of the team is defeated, they can revive their fallen ally and jump right back into the fight.
+
+The Summoner and their Familiar are the strongest at transferring health from foes to themselves. While it is a great class for novices, actually mastering the Summoner is a difficult process given their wide range of tactics and abilities.
+
+Available Races: Lyn
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+*Kungfu Master:
+
+	While their mighty punches and kicks can lay waste to enemies, a Kung Fu Master’s true power is their ability to catch an opponent’s attack, divert the blow, then counter-attack in the blink of an eye. Due to the precision needed to switch between offensive and defensive abilities, the Kung Fu Master is recommended only for the more experienced.
+
+Kung Fu Masters can control the flow of combat through use of combination attacks, stringing together a long chain of blows one after another. While they are capable of facing multiple enemies at once, leaping and pouncing from one foe to another, they are most effective in one-on-one combat.
+
+The Kung Fu Master’s greatest strength is how well they cooperate with other warriors. By leading the charge, the Kung Fu Master can force an enemy into submission while teammates pour on the damage.
+
+Available Races: Gon, Jin, Yun
+
+
